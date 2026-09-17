@@ -7,7 +7,7 @@ import QuotationPaper from '../components/QuotationPaper';
 import { defaultQuotationData } from '../data/defaultQuotation';
 import { ZoomIn, ZoomOut, Maximize2, Sparkles, AlertCircle } from 'lucide-react';
 
-const STORAGE_KEY = 'ma_creation_quotation_data_v3';
+const STORAGE_KEY = 'ma_creation_quotation_data_v4';
 
 export default function Home() {
   const [quotationData, setQuotationData] = useState(defaultQuotationData);
@@ -44,9 +44,9 @@ export default function Home() {
     }
   };
 
-  // Reset to default ₹63k package
+  // Reset to default ₹64k package
   const handleReset = () => {
-    if (confirm("Reset quotation back to default MA Creation ₹63,000 Ladies Clothing proposal?")) {
+    if (confirm("Reset quotation back to default MA Creation ₹64,000 Ladies Clothing Shopify proposal?")) {
       setQuotationData(defaultQuotationData);
       try {
         localStorage.setItem(STORAGE_KEY, JSON.stringify(defaultQuotationData));

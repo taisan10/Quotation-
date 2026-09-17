@@ -89,7 +89,7 @@ export default function EditorSidebar({ data, onChange, onResetToDefault, isOpen
           className="btn btn-ghost" 
           style={{ fontSize: '0.75rem', padding: '0.35rem 0.65rem' }} 
           onClick={onResetToDefault}
-          title="Reset back to default ₹63,000 package"
+          title="Reset back to default ₹64,000 package"
         >
           <RotateCcw size={13} style={{ marginRight: '4px' }} /> Reset Default
         </button>
@@ -156,10 +156,10 @@ export default function EditorSidebar({ data, onChange, onResetToDefault, isOpen
                 {formatINR(totalAmount)}
               </span>
             </div>
-            <div style={{ fontSize: '0.75rem', color: totalAmount === 63000 ? '#34d399' : '#f59e0b', marginTop: '4px', fontWeight: 600 }}>
-              {totalAmount === 63000 
-                ? "✓ Perfectly matched to target ₹63,000 Budget" 
-                : `Current Total: ${formatINR(totalAmount)} (Target budget: ₹63,000)`}
+            <div style={{ fontSize: '0.75rem', color: totalAmount === 64000 ? '#34d399' : '#f59e0b', marginTop: '4px', fontWeight: 600 }}>
+              {totalAmount === 64000 
+                ? "✓ Perfectly matched to target ₹64,000 Budget" 
+                : `Current Total: ${formatINR(totalAmount)} (Target budget: ₹64,000)`}
             </div>
           </div>
 

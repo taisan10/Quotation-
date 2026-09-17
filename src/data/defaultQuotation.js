@@ -5,16 +5,16 @@ export const defaultQuotationData = {
     address: "Lavish Library, 1st Floor, Charkhi Dadri, Haryana - 127306",
     phone: "+91 83960 04077",
     email: "macreation017@gmail.com",
-    gstin: "06AAAFM1234F1Z5",
-    pan: "AAAFM1234F",
-    bank: {
-      accountName: "MA CREATION",
-      bankName: "HDFC Bank Ltd.",
-      accountNumber: "50200084920194",
-      ifscCode: "HDFC0001890",
-      branch: "Charkhi Dadri, Haryana",
-      upiId: "macreation@hdfcbank"
-    }
+    // gstin: "06AAAFM1234F1Z5",
+    // pan: "AAAFM1234F",
+    // bank: {
+    //   accountName: "MA CREATION",
+    //   bankName: "HDFC Bank Ltd.",
+    //   accountNumber: "50200084920194",
+    //   ifscCode: "HDFC0001890",
+    //   branch: "Charkhi Dadri, Haryana",
+    //   upiId: "macreation@hdfcbank"
+    // }
   },
   meta: {
     quotationNo: "MAC/2026/QT-108",
@@ -31,20 +31,20 @@ export const defaultQuotationData = {
     phone: "+91 70829 21003"
   },
   project: {
-    title: "Ladies Clothing E-Commerce Website & Custom Admin Dashboard",
-    summary: "End-to-end development of a high-performance, mobile-first e-commerce web platform specially tailored for ethnic & contemporary ladies wear. Features bespoke showcase for Kurta, Laancha, Lehnga & party wear collections, along with a dedicated custom administrative dashboard for catalog, inventory, order processing, and sales analytics.",
+    title: "Ladies Clothing Shopify E-Commerce Website & Store Setup",
+    summary: "End-to-end development & customization of a high-performance, mobile-first Shopify e-commerce web platform specially tailored for ethnic & contemporary ladies wear. Features bespoke showcase for Kurta, Laancha, Lehnga & party wear collections, along with full Shopify administrative controls for catalog, inventory, order processing, and sales analytics.",
     categories: [
+      { name: "Sarees & Dupattas", desc: "Silk, Organza, Banarasi & Embroidered Party Wear" },
       { name: "Kurta & Kurti", desc: "A-Line, Anarkali, Straight Cut, Daily Wear & Festive Kurtis" },
       { name: "Laancha Sets", desc: "Traditional Royal Flair, Mirror Work & Handcrafted Ensembles" },
-      { name: "Lehnga Choli", desc: "Bridal, Semi-Stitched, Designer Festive & Reception Collections" },
-      { name: "Sarees & Dupattas", desc: "Silk, Organza, Banarasi & Embroidered Party Wear" }
+      { name: "Lehnga Choli", desc: "Bridal, Semi-Stitched, Designer Festive & Reception Collections" }
     ],
     features: [
-      "Ultra-fast Next.js React storefront with luxury boutique aesthetics",
+      "Ultra-fast Shopify luxury boutique storefront with custom styling & mobile optimization",
       "Dynamic multi-attribute product filters (Size XS-5XL, Color swatches, Fabric, Price range)",
-      "High-resolution interactive image zoom & responsive photo gallery",
-      "Custom Admin Dashboard with product, stock, discount & order fulfillment controls",
-      "Seamless Razorpay / PhonePe / Paytm Payment Gateway & COD support",
+      "High-resolution interactive image zoom, swatch selector & responsive photo gallery",
+      "Shopify Admin Dashboard with product, stock, discount coupons & order fulfillment controls",
+      "Seamless Indian Payment Gateway (Razorpay / PhonePe / Paytm) & COD integration",
       "Automated Order Confirmation via Email & WhatsApp/SMS alerts",
       "Courier API tracking integration (Shiprocket / Delhivery ready)",
       "SEO friendly metadata for Kurta, Laancha, Lehnga keywords to boost Google ranking"
@@ -53,71 +53,70 @@ export const defaultQuotationData = {
   items: [
     {
       id: 1,
-      title: "Luxury Boutique UI/UX & Responsive Web Storefront",
-      description: "Custom frontend built with Next.js. Dedicated landing page, mobile-first responsive architecture, category showcases for Kurta, Laancha, Lehnga, product detail pages with size charts, color swatches, wishlist & shopping cart.",
+      title: "Premium Shopify Storefront & Luxury Boutique UI/UX Customization",
+      description: "Customized premium Shopify theme tailored for Ladies Ethnic Wear. Dedicated homepage sections, mobile-first responsive design, collections for Kurta, Laancha, Lehnga, Sarees, product detail pages with size charts, color variants, high-res zoom & quick cart drawer.",
       qty: 1,
-      rate: 16000,
-      amount: 16000
+      rate: 18000,
+      amount: 18000
     },
     {
       id: 2,
-      title: "Custom Admin Dashboard & Multi-tier Catalog Management",
-      description: "Comprehensive administrative suite: Add/edit/delete products, multi-angle HD photo upload, category & sub-category manager, real-time stock alert thresholds, customer database, order status tracking (Pending, Dispatched, Delivered).",
+      title: "Shopify Store Architecture, Catalog & Inventory Configuration",
+      description: "Complete Shopify store setup: Multi-tier categories, product variant matrices (sizes XS-5XL, colors, fabrics), automated collections, stock inventory alerts, customer database setup, and tax/invoice rules configuration.",
       qty: 1,
       rate: 14000,
       amount: 14000
     },
     {
       id: 3,
-      title: "E-Commerce Backend, Relational Database & Cart Architecture",
-      description: "Scalable backend database (PostgreSQL/MongoDB), secure user authentication, customer profile & order history, server-side search indexing, automated PDF tax invoice generator for buyers.",
+      title: "Shopify App Integrations, Custom Features & Conversion Boosters",
+      description: "Installation & configuration of essential Shopify apps: Abandoned cart recovery, customer product reviews/ratings, dynamic discount coupons & announcement bars.",
       qty: 1,
-      rate: 9000,
-      amount: 9000
+      rate: 10000,
+      amount: 10000
     },
     {
       id: 4,
-      title: "Payment Gateway, WhatsApp/SMS Alerts & Shipping Integration",
-      description: "Integration of Indian Payment Gateways (Razorpay/UPI/Credit/Debit/Netbanking), automated instant order notification via WhatsApp/Email, and courier tracking connector (Shiprocket/Delhivery).",
+      title: "Payment Gateway, Email Notifications & Courier Logistics",
+      description: "Integration of Indian Payment Gateways (Razorpay / PhonePe / Paytm / Cash on Delivery), automated Email notifications, and courier shipping integration (Shiprocket / Delhivery / Bluedart automated tracking).",
       qty: 1,
-      rate: 5000,
-      amount: 5000
+      rate: 7000,
+      amount: 7000
     },
     {
       id: 5,
-      title: "Dedicated Cloud Setup, Custom Domain, SSL & 1 Year Premium Maintenance",
-      description: "Production cloud server deployment (AWS/Vercel), dedicated domain DNS linking, automated SSL security, CDN image caching, daily database backups, priority technical maintenance & 1 Year bug-fix warranty.",
+      title: "Custom Domain Linking, Shopify Security & 1 Year Premium Maintenance",
+      description: "Custom domain DNS setup, SSL security verification, SEO optimization for Google search, staff admin training & walkthrough, and 1 Year complimentary technical support & store maintenance.",
       qty: 1,
-      rate: 19000,
-      amount: 19000
+      rate: 15000,
+      amount: 15000
     }
   ],
   pricingSummary: {
     discountPercent: 0,
     taxPercent: 0,
     taxLabel: "GST (Excluded / Extra)",
-    notes: "Total project cost is ₹63,000 (GST Excluded. Includes UI/UX design, clothing storefront, custom admin panel, payment gateway, domain setup and 1 Year maintenance)."
+    notes: "Total project cost is ₹64,000 (GST Excluded. Includes premium Shopify theme customization, clothing storefront, catalog setup, payment gateway, courier integration, custom domain linking, and 1 Year technical support)."
   },
   milestones: [
-    { phase: "Stage 1: Advance / Project Kickoff", percentage: 50, amount: 31500, trigger: "50% advance payment upon work authorization & project initiation" },
-    { phase: "Stage 2: Final Delivery, Live Domain & Handover", percentage: 50, amount: 31500, trigger: "50% balance upon final testing, domain setup & live launch" }
+    { phase: "Stage 1: Advance / Project Kickoff", percentage: 50, amount: 32000, trigger: "50% advance payment upon work authorization & project initiation" },
+    { phase: "Stage 2: Final Delivery, Live Domain & Handover", percentage: 50, amount: 32000, trigger: "50% balance upon final testing, domain setup & live launch" }
   ],
   timeline: {
-    totalDuration: "3 to 4 Weeks",
+    totalDuration: "2 to 3 Weeks",
     phases: [
-      { name: "Week 1", desc: "Design mockups, category planning (Kurta, Laancha, Lehnga) & UI finalization" },
-      { name: "Week 2", desc: "Core storefront development, category filtering & custom admin dashboard" },
-      { name: "Week 3", desc: "Payment gateway, SMS/order alerts & courier tracking integration" },
-      { name: "Week 4", desc: "Domain linking, SSL, cloud deployment, admin training & live launch" }
+      { name: "Week 1", desc: "Shopify store setup, theme selection, category planning (Kurta, Laancha, Lehnga) & UI customization" },
+      { name: "Week 2", desc: "Catalog & variant setup, apps configuration, payment gateway & courier integration" },
+      { name: "Week 3", desc: "Custom domain DNS linking, SSL, payment testing, admin training & live launch" }
     ]
   },
   terms: [
-    "The total project cost is ₹63,000 as agreed for the scope detailed in this quotation.",
-    "Scope includes Ladies Clothing E-commerce storefront with categories (Kurta, Laancha, Lehnga, Sarees, etc.) and complete Custom Admin Dashboard.",
-    "Payment Terms: 50% Advance upon project kickoff and 50% on final delivery & live handover.",
+    "The total project cost is ₹64,000 as agreed for the scope detailed in this quotation.",
+    "Scope includes Ladies Clothing Shopify E-commerce storefront with categories (Kurta, Laancha, Lehnga, Sarees, etc.) and complete Shopify Store Configuration.",
+    "Payment Terms: 50% Advance upon project kickoff (₹32,000) and 50% on final delivery & live handover (₹32,000).",
     "All prices and rates quoted are exclusive of GST (GST Excluded / Extra as applicable).",
     "1 Year complimentary bug-fixing and technical maintenance support is included after live deployment.",
-    "Third-party recurring costs (Domain registration, hosting renewals, SMS credits, payment gateway charges) are directly borne by client.",
+    "Third-party recurring costs (Shopify monthly subscription plan, custom domain registration, paid app subscriptions, SMS credits, payment gateway transaction fees) are directly borne by client.",
     "Any additional custom modules requested outside this scope will be quoted separately upon agreement.",
     "Quotation remains valid for 15 days from the date of issuance."
   ]

@@ -48,7 +48,7 @@ export default function QuotationPaper({ data, onChange }) {
                   <strong>Phone:</strong> {company.phone} &nbsp;|&nbsp; <strong>Email:</strong> {company.email}
                 </p>
                 <p>
-                  <strong>GST:</strong> {company.gstin} 
+                  {/* <strong>GST:</strong> {company.gstin}  */}
                 </p>
                 {/* Heuristic #7 Fix: Clear structured representation */}
                
@@ -113,7 +113,7 @@ export default function QuotationPaper({ data, onChange }) {
             {project.summary}
           </p>
           <div className="budget-highlight-badge">
-            Agreed Budget: <span>{formatINR(grandTotal)}</span>
+           Budget: <span>{formatINR(grandTotal)}</span>
           </div>
         </div>
       </div>
@@ -126,7 +126,7 @@ export default function QuotationPaper({ data, onChange }) {
             Ladies Clothing Storefront Categories Included:
           </span>
           <span style={{ fontSize: '0.75rem', color: '#64748b', fontWeight: 600 }}>
-            Includes Custom Admin Dashboard Controls
+            Includes  Admin Dashboard Controls
           </span>
         </div>
         <div className="category-tags-list">
@@ -236,7 +236,7 @@ export default function QuotationPaper({ data, onChange }) {
         </div>
 
         {/* Bank & Payment Details */}
-        <div className="section-mini-box">
+        {/* <div className="section-mini-box">
           <div className="section-mini-title">
             <ShieldCheck size={12} style={{ display: 'inline', marginRight: '4px' }} />
             Bank & Payment Account Details
@@ -247,7 +247,7 @@ export default function QuotationPaper({ data, onChange }) {
             <p><strong>Account No:</strong> {company.bank.accountNumber}</p>
             <p><strong>IFSC Code:</strong> {company.bank.ifscCode} &nbsp;|&nbsp; <strong>UPI ID:</strong> {company.bank.upiId}</p>
           </div>
-        </div>
+        </div> */}
       </div>
 
       {/* 7. Terms & Conditions (Heuristic #12 Fix) */}
